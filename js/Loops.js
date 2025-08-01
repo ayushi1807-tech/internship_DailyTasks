@@ -78,8 +78,8 @@ for(let key in object){
 // Nested Loops 
 // Use nested loops to iterate through multi-dimensional arrays or perform complex iterations.
 
-for (let i = 0; i < 3; i++) {
-  for (let j = 0; j < 3; j++) {
+for (let i = 0; i <= 3; i++) {
+  for (let j = 0; j <= 3; j++) {
     if (i === j) {
       console.log(`Diagonal element: ${i}, ${j}`);
     }
