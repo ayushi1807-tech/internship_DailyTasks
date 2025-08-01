@@ -1,4 +1,4 @@
-// Skipp the iturationnnn
+// Skipp the iterationnnn
 
 for(let i=0; i<10; i++){
     if(i==5){
