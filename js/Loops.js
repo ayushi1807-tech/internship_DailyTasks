@@ -85,3 +85,12 @@ for (let i = 0; i <= 3; i++) {
     }
   }
 }
+
+//ForEach 
+// The forEach() method calls a function for each element in an array.
+const items = ["apple", "banana", "cherry"];
+const copy = [];
+items.forEach(function(item) {
+  copy.push(item);
+})
+console.log(copy)

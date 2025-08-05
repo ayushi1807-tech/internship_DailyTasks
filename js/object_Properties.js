@@ -8,3 +8,7 @@ let x = person.firstName = "Jane";
 console.log(person.firstName);
 console.log(person.lastName);
 
+Object.defineProperty(person, "year", {value:"2008"});
+console.log(person.year);
+
+
