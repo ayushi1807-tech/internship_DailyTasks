@@ -1,0 +1,79 @@
+// function generateUniqueRandomNumbers() {
+//   const numbers = new Set();
+//   while (numbers.size < 10) {
+//     const randomNum = Math.floor(Math.random() * 10) + 1;
+//     numbers.add(randomNum);
+//   }
+//   return Array.from(numbers);
+// }
+
+// console.log(generateUniqueRandomNumbers());
+
+
+const fs = require("fs");
+const readLine = require("readline");
+const rl = readLine.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+let history = [];
+function userInput() {
+  rl.question("🎯 Guess Number between 1 to 10 :", (result) => {
+    if (result < 1 || result > 10) {
+      console.error("Invalid Input please Enter Again..!!");
+      userInput();
+    } else {
+      let number = new Set();
+      while (number.size < 10) {
+        number.add(Math.floor(Math.random() * 10) + 1);
+      }
+      const randomNumbers = [...number]
+
+      console.log("Spinning...");
+      randomNumbers.forEach((val, index) => {
+        setTimeout(() => {
+          console.log(val);
+          if (index === randomNumbers.length - 1) {
+            console.log("✅ Wheel Stopped at: ", randomNumbers[9]);
+            if (result == randomNumbers[9]) {
+              var win = "👏🏻You win";
+              console.log(win);
+              history.push(win);
+              //    console.log('Your Game History is',history[0])
+            } else {
+              var lose = "😔 You Loose";
+              console.log(lose);
+              history.push(lose);
+              //   console.log('Your Game History is :', history[0])
+            }
+            if (history.length > 5) {
+              history.shift();
+              console.log(`🔄 Your History is:\n`);
+              history.forEach((item, index) => {
+                console.log(` ${index + 1} : ${item}`);
+              });
+            } else {
+              // console.log(`Your History is :${history} \n`)
+              console.log(`🔄 Your History is:`);
+              history.forEach((item, index) => {
+                console.log(` ${index + 1} : ${item}`);
+              });
+            }
+            rl.question(
+              `❔Do You want to Play Again? (yes/no) : `,
+              (answer) => {
+                if (answer === "yes") {
+                  userInput();
+                } else {
+                  console.log("🤩 Thank You for playing");
+                  rl.close();
+                }
+              }
+            );
+          }
+        }, (index + 1) * 100);
+      });
+    }
+  });
+}
+userInput();
