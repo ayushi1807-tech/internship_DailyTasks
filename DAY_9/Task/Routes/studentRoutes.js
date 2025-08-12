@@ -1,0 +1,119 @@
+const express = require('express')
+const router = express.Router()
+const {Create,Get,UpdateByName,Delete,Search,Sort,Count,CountAll,Export} = require('../Controller/StudentController')
+
+
+
+
+router.route('/Create').post(Create)
+router.route('/').get(Get)
+router.route('/Update/:name').patch(UpdateByName)
+router.route('/Delete/:name').delete(Delete)
+router.route('/Search/:name').get(Search)
+router.route('/Sort').get(Sort)
+router.route('/Count/:course').get(Count)
+router.route('/CountAll').get(CountAll)
+router.route('/Export').get(Export)
+
+
+
+// router.get('/',async (req,res)=>{
+//    try{
+// const Student = await student.find()
+//     res.json(Student)
+//    } catch(error){
+//     res.status(404).json({error:"No data Found"})
+//    }
+// })
+
+
+// router.post('/Create',async(req,res)=>{
+//    try{
+//     const Student = await student.create(req.body)
+//     res.status(201).json(Student)
+//    } catch(error){
+//     res.status(400).json({error:"Invalid Input"})
+//    }
+// })
+
+
+
+
+// router.patch('/Update/:name',async(req,res)=>{
+//     const Student = await student.findOneAndUpdate(
+//         {name:req.params.name},
+//         req.body,
+//         {new : true}
+//     );
+//     res.json(Student)
+// })
+
+
+
+// router.delete('/Delete/:name',async(req,res)=>{
+//     try{
+//       const deleteStudent =  await student.findOneAndDelete({name:req.params.name})
+//       if(!deleteStudent){
+//         res.status(404).json({messege:"Student Not Found!!!!"})
+//       }
+//         res.send("Student Deleted Sucessfullyy...!!!")
+//     }catch(error){
+//         console.log("Error While Deleting Student",error)
+//         res.status(500).json({messege:"Server Error"})
+//     } 
+// })
+
+
+
+// router.get('/Search/:name',async(req,res)=>{
+//      const Student = await student.find(
+//         {name:req.params.name},        
+//     );
+//     res.json(Student)
+// })
+
+
+
+// router.get('/Sort', async(req,res)=>{
+//     const sorted = await student.find({}).sort({name:1 })
+//     res.json(sorted)
+// })
+
+
+// router.get('/Count/:course',async(req,res)=>{ 
+//     const courseStu = await student.find({}).countDocuments({course:req.params.course})
+//     res.send(`number of Students in ${req.params.course} are ${courseStu} `) 
+// })
+
+
+
+// router.get('/CountAll',async(req,res)=>{
+    
+//     const courseStu = await student.find({}).countDocuments({})
+//     res.send(`Total number of Students ${courseStu}`)
+// })
+
+
+
+// export Student Data in txt file
+// router.get('/Export',async (req,res)=>{
+//     const filepath = path.join(__dirname,'Data.txt')
+//     const jsonData = await student.find()
+//     const jsonString = JSON.stringify(jsonData,null,2)
+
+//     fs.writeFile(filepath,jsonString,(err)=>{
+//         if(err){
+//             res.send("Error",err);
+//             return res.status(500).send('Failed to export data.');
+//         }
+//         res.download(filepath,'data.txt',(err)=>{
+//            if(err){
+//             res.send("Error in sending File",err)
+//            }
+//         })
+//     })
+// })
+
+
+
+module.exports = router
