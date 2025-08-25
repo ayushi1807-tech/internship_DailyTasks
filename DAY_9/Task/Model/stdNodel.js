@@ -1,24 +1,18 @@
+const { required } = require("joi");
 const mongoose = require("mongoose");
 
-const stdSchme = new mongoose.Schema(
+const studentSchema = new mongoose.Schema(
   {
-    name: {
-      type: String,
-      required: true,
-    },
-    age: {
-      type: Number,
-      required: true,
-      min: 1,
-    },
-    course: {
-      type: String,
-      enum: ["CSE", "CS", "IT", "AI_ML", "DATA_SCIENCE", "CE"],
-      default: "unknown",
-    },
+    name: { type: String, required: true, trim: true },
+    email: { type: String, trim: true },
+    age: { type: Number, required: true },
+    phone: {type: String, required:true},
+    course: { type: mongoose.Schema.Types.ObjectId, ref: "Course" },
+    country: { type: mongoose.Schema.Types.ObjectId, ref: "Country" },
+    state: { type: mongoose.Schema.Types.ObjectId, ref: "State" },
+    city: { type: mongoose.Schema.Types.ObjectId, ref: "City" },
   },
   { timestamps: true }
 );
 
-const student = mongoose.model("Std_table", stdSchme);
-module.exports = student;
+module.exports = mongoose.model("Std_table", studentSchema);

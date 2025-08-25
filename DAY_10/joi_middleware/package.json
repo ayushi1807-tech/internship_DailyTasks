@@ -1,5 +1,5 @@
 {
-  "name": "task",
+  "name": "joi_middleware",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,20 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "csv": "^6.4.1",
-    "csv-parser": "^3.2.0",
-    "csv-stringify": "^6.6.0",
-    "csv-writer": "^1.6.0",
-    "csvtojson": "^2.0.10",
-    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "joi": "^18.0.0",
     "mongoose": "^8.17.1",
-    "multer": "^2.0.2",
-    "router": "^2.2.0",
-    "zod": "^4.0.17"
-  },
-  "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }

@@ -1,11 +1,17 @@
 const express = require('express')
 const router = express.Router()
-const {Create,Get,UpdateByName,Delete,Search,Sort,Count,CountAll,Export} = require('../Controller/StudentController')
+const { Create, Get, UpdateByName, Delete, Search, Sort, Count, CountAll, Export, imported} = require('../Controller/StudentController')
+const validator  = require("../middleware/validator")
+const upload = require("../middleware/upload")
 
 
-
-
-router.route('/Create').post(Create)
+router.route('/Create').post(validator, Create)
+// router.route('/Country').post(country)
+// router.route('/City').post(city)
+// router.route('/State').post(state)
+// router.route('/view-State').get(state)
+// router.route('/view-city').get(city)
+// router.route('/view-country').get(country)
 router.route('/').get(Get)
 router.route('/Update/:name').patch(UpdateByName)
 router.route('/Delete/:name').delete(Delete)
@@ -14,6 +20,9 @@ router.route('/Sort').get(Sort)
 router.route('/Count/:course').get(Count)
 router.route('/CountAll').get(CountAll)
 router.route('/Export').get(Export)
+router.route('/Import').post(upload.single('students_test'),imported)
+
+// router.route('/Import',get(imported))
 
 
 
@@ -88,7 +97,7 @@ router.route('/Export').get(Export)
 
 
 // router.get('/CountAll',async(req,res)=>{
-    
+
 //     const courseStu = await student.find({}).countDocuments({})
 //     res.send(`Total number of Students ${courseStu}`)
 // })
