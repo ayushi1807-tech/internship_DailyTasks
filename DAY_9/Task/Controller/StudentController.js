@@ -246,7 +246,7 @@ const imported = async (req, res) => {
         citydata = await City.create({ name: city.toLowerCase(), state: statedata._id });
       }
 
-    //                                                                
+                                                                                                                
       let courseArr = [];
       if (Array.isArray(course)) {
         courseArr = course;
@@ -303,3 +303,4 @@ module.exports = {
   imported
 
 };
+       
