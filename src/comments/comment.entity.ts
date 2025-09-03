@@ -1,23 +1,33 @@
 /* eslint-disable prettier/prettier */
-import { Post } from "src/posts/post.entity";
+/* eslint-disable prettier/prettier */
+import { Posts } from "src/posts/post.entity";
 import { User } from "src/users/user.entity";
-import { Column, CreateDateColumn, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import {
+  Column,
+  CreateDateColumn,
+  DeleteDateColumn,
+  Entity,
+  ManyToOne,
+  PrimaryGeneratedColumn,
+} from "typeorm";
 
 @Entity()
-export class Comment{
-    @PrimaryGeneratedColumn()
-    id:string
+export class Comment {
+  @PrimaryGeneratedColumn()
+  id: number;
 
-    @Column()
-    content:string
+  @Column()
+  content: string;
 
-    @CreateDateColumn({type:"timestamp"})
-    createdAt:Date
+  @CreateDateColumn({ type: "timestamp" })
+  createdAt: Date;
 
-    @ManyToOne(()=>Post,(post)=>post.comments,{onDelete:"CASCADE"})
-    post:Post[]
+  @DeleteDateColumn()
+  deletedAt?: Date;
 
-    @ManyToOne(()=>User,(user)=>user.comments,{onDelete:"CASCADE"})
-    user:User[]
+  @ManyToOne(() => Posts, (post) => post.comments, { onDelete: "CASCADE" })
+  post: Posts;
 
+  @ManyToOne(() => User, (user) => user.comments, { onDelete: "CASCADE" })
+  user: User;
 }

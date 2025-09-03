@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { RolesGuard } from './roles.guard';
 
 describe('RolesGuard', () => {

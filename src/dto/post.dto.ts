@@ -1,19 +1,24 @@
 /* eslint-disable prettier/prettier */
-import { IsEnum, IsNotEmpty, IsNumber, IsString } from "class-validator";
+import { ApiProperty } from "@nestjs/swagger";
+import { IsEnum, IsNotEmpty,  IsString } from "class-validator";
  
 export class CreatePostDto{
+    @ApiProperty()
     @IsNotEmpty()
     @IsString()
     title: string;
  
+    @ApiProperty()
     @IsNotEmpty()
     @IsString()
     content: string;
  
+    @ApiProperty()
     @IsEnum(['draft', 'published'])
     status: 'draft' | 'published'
- 
-    @IsNotEmpty()
-    @IsNumber()
-    userId: number;
+    
+    // @ApiProperty()
+    // @IsNotEmpty()
+    // @IsNumber()
+    // userId: number;
 }

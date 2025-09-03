@@ -7,6 +7,7 @@ import { PostsModule } from './posts/posts.module';
 import { CommentsModule } from './comments/comments.module';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { AuthModule } from './guards/auth/auth.module';
 
 
 @Module({
@@ -17,7 +18,9 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     url:process.env.DATABASE_URI,
     autoLoadEntities:true,
     synchronize:true
-  }), UsersModule, PostsModule, CommentsModule],
+  }),
+  
+   UsersModule, PostsModule, CommentsModule,AuthModule],
   controllers: [AppController],
   providers: [AppService],
 })

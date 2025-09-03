@@ -1,12 +1,14 @@
 /* eslint-disable prettier/prettier */
+/* eslint-disable @typescript-eslint/no-unsafe-return */
+/* eslint-disable prettier/prettier */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 import{Comment} from 'src/comments/comment.entity'
 import { User } from 'src/users/user.entity'
-import {Entity,PrimaryGeneratedColumn,Column, CreateDateColumn, UpdateDateColumn, ManyToOne, OneToMany} from 'typeorm'
+import {Entity,PrimaryGeneratedColumn,Column, CreateDateColumn, UpdateDateColumn, ManyToOne, OneToMany, DeleteDateColumn} from 'typeorm'
 
 @Entity()
-export class Post{
+export class Posts{
     @PrimaryGeneratedColumn()
     id:number
 
@@ -23,14 +25,16 @@ export class Post{
     updatedAt:Date
 
     @Column({
-        type:"enum",enum:['Draft',"Published"],default:"Draft"
+        type:"enum",enum:['draft',"published"],default:"draft"
     })
-    status:'Draft'|"Published"
+    status:'draft'|"published"
 
+     @DeleteDateColumn()
+     deletedAt?: Date;
+     
     @ManyToOne(()=>User,(user)=>user.posts,{onDelete:"CASCADE"})
     user:User
 
-   
     @OneToMany(()=>Comment,(comment)=>comment.post,{cascade:true})
     comments:Comment[]
 }

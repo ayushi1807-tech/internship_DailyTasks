@@ -1,27 +1,27 @@
 /* eslint-disable prettier/prettier */
-import { IsEmail, IsEnum, IsJWT, IsNotEmpty, IsString, MinLength, } from 'class-validator'
+import { IsEmail, IsEnum, IsNotEmpty, IsOptional, IsString, MinLength } from 'class-validator';
+import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
  
 export class CreateUserDto {
-    @IsNotEmpty()
-    @IsString()
-    name: string;
+  @ApiProperty({ example: 'John Doe' })
+  // @IsNotEmpty()
+  @IsOptional()
+  @IsString()
+  name: string;
  
-    @IsNotEmpty()
-    @IsEmail()
-    email: string;
+  @ApiProperty({ example: 'john@example.com' })
+  @IsNotEmpty()
+  @IsEmail()
+  email: string;
  
-    @IsNotEmpty()
-    @IsString()
-    @MinLength(8)
-    password: string;
+  @ApiProperty({ example: 'password123' })
+  @IsNotEmpty()
+  @IsString()
+  @MinLength(8)
+  password: string;
  
-    @IsEnum(['admin', 'author', 'reader'])
-    role: 'admin' | 'author' | 'user';
-
-   @IsJWT()
-    refreshToken?: string | undefined;
- 
-    @IsJWT()
-    accessToken?: string | undefined;
+  @ApiPropertyOptional({ example: 'reader', enum: ['admin', 'author', 'reader'] })
+  @IsOptional()
+  @IsEnum(['admin', 'author', 'reader'])
+  role?: 'admin' | 'author' | 'reader';
 }
-       

@@ -3,10 +3,10 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable prettier/prettier */
 import { Comment } from 'src/comments/comment.entity';
-import { Post } from 'src/posts/post.entity';
-import bcrypt from 'bcrypt';
+import { Posts } from 'src/posts/post.entity';
+import * as bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
-import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, OneToMany, BeforeInsert } from 'typeorm';
 
 @Entity()
 export class User {
@@ -25,8 +25,8 @@ export class User {
   @Column({ default: 'User' })
   role: string;
 
-  @OneToMany(() => Post, (post) => post.user)
-  posts: Post[];
+  @OneToMany(() => Posts, (post) => post.user)
+  posts: Posts[];
 
   @OneToMany(() => Comment, (comment) => comment.user)
   comments: Comment[];
@@ -34,6 +34,7 @@ export class User {
   @Column()
   refreshToken: string;
 
+  @BeforeInsert()
   async hashPassword() {
     if (this.password) {
       this.password = await bcrypt.hash(this.password, 10);

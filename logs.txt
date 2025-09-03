@@ -1,0 +1,1263 @@
+{
+  "time": "2025-09-01T11:08:27.911Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "1111ms"
+}
+
+{
+  "time": "2025-09-01T11:10:17.676Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "1111ms"
+}
+
+{
+  "time": "2025-09-01T11:12:26.846Z",
+  "method": "GET",
+  "url": "/users",
+  "params": {},
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "568ms"
+}
+
+{
+  "time": "2025-09-01T11:15:02.836Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "1233ms"
+}
+
+{
+  "time": "2025-09-01T11:15:54.925Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "944ms"
+}
+
+{
+  "time": "2025-09-01T11:16:04.462Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "583ms"
+}
+
+{
+  "time": "2025-09-01T11:20:24.777Z",
+  "method": "POST",
+  "url": "/auth/register",
+  "params": {},
+  "query": {},
+  "body": {
+    "name": "pinal",
+    "email": "pinal123@gmil.com",
+    "password": "pinal123",
+    "role": "Reader"
+  },
+  "statusCode": 201,
+  "executionTime": "1104ms"
+}
+
+{
+  "time": "2025-09-01T11:32:06.711Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "1179ms"
+}
+
+{
+  "time": "2025-09-01T11:32:47.830Z",
+  "method": "GET",
+  "url": "/users",
+  "params": {},
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "550ms"
+}
+
+{
+  "time": "2025-09-01T11:33:57.526Z",
+  "method": "GET",
+  "url": "/posts?page=1&limit=10&search=6325",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "search": "6325"
+  },
+  "statusCode": 200,
+  "executionTime": "593ms"
+}
+
+{
+  "time": "2025-09-01T11:34:11.693Z",
+  "method": "GET",
+  "url": "/posts?page=1&limit=10&search=post",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "search": "post"
+  },
+  "statusCode": 200,
+  "executionTime": "412ms"
+}
+
+{
+  "time": "2025-09-01T11:34:42.873Z",
+  "method": "GET",
+  "url": "/posts?page=1&limit=10&search=post",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "search": "post"
+  },
+  "statusCode": 200,
+  "executionTime": "80ms"
+}
+
+{
+  "time": "2025-09-01T11:34:59.283Z",
+  "method": "GET",
+  "url": "/posts?page=1&limit=10&search=story",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "search": "story"
+  },
+  "statusCode": 200,
+  "executionTime": "397ms"
+}
+
+{
+  "time": "2025-09-01T11:35:26.877Z",
+  "method": "GET",
+  "url": "/posts?page=1&limit=10&search=story",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "search": "story"
+  },
+  "statusCode": 200,
+  "executionTime": "581ms"
+}
+
+{
+  "time": "2025-09-01T11:35:40.393Z",
+  "method": "GET",
+  "url": "/posts?page=1&limit=10&search=64237",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "search": "64237"
+  },
+  "statusCode": 200,
+  "executionTime": "437ms"
+}
+
+{
+  "time": "2025-09-01T11:45:27.954Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "1017ms"
+}
+
+{
+  "time": "2025-09-01T11:45:55.399Z",
+  "method": "GET",
+  "url": "/users?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "441ms"
+}
+
+{
+  "time": "2025-09-01T11:46:50.325Z",
+  "method": "GET",
+  "url": "/users?page=1&limit=5",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "5"
+  },
+  "statusCode": 200,
+  "executionTime": "587ms"
+}
+
+{
+  "time": "2025-09-01T11:48:59.460Z",
+  "method": "GET",
+  "url": "/posts?page=1&limit=10&search=64237",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "search": "64237"
+  },
+  "statusCode": 200,
+  "executionTime": "431ms"
+}
+
+{
+  "time": "2025-09-01T11:52:53.707Z",
+  "method": "GET",
+  "url": "/users?page=1&limit=10",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10"
+  },
+  "statusCode": 200,
+  "executionTime": "570ms"
+}
+
+{
+  "time": "2025-09-01T11:53:17.752Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "421ms"
+}
+
+{
+  "time": "2025-09-01T11:55:29.805Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "690ms"
+}
+
+{
+  "time": "2025-09-01T12:10:18.180Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "607ms"
+}
+
+{
+  "time": "2025-09-02T04:00:40.173Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "970ms"
+}
+
+{
+  "time": "2025-09-02T04:01:35.086Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "861ms"
+}
+
+{
+  "time": "2025-09-02T04:09:16.672Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "1277ms"
+}
+
+{
+  "time": "2025-09-02T04:11:11.449Z",
+  "method": "DELETE",
+  "url": "/posts/17",
+  "params": {
+    "id": "17"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "517ms"
+}
+
+{
+  "time": "2025-09-02T04:12:56.956Z",
+  "method": "PATCH",
+  "url": "/posts/17/restore",
+  "params": {
+    "id": "17"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "500ms"
+}
+
+{
+  "time": "2025-09-02T04:13:31.363Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "783ms"
+}
+
+{
+  "time": "2025-09-02T04:14:23.691Z",
+  "method": "DELETE",
+  "url": "/posts/17",
+  "params": {
+    "id": "17"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "798ms"
+}
+
+{
+  "time": "2025-09-02T04:19:40.899Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "pinal123@gmil.com",
+    "password": "pinal123"
+  },
+  "statusCode": 201,
+  "executionTime": "823ms"
+}
+
+{
+  "time": "2025-09-02T04:28:08.617Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "922ms"
+}
+
+{
+  "time": "2025-09-02T04:29:38.034Z",
+  "method": "DELETE",
+  "url": "/comments/3",
+  "params": {
+    "id": "3"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "886ms"
+}
+
+{
+  "time": "2025-09-02T04:31:04.670Z",
+  "method": "PATCH",
+  "url": "/comments/3/restore",
+  "params": {
+    "id": "3"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "432ms"
+}
+
+{
+  "time": "2025-09-02T05:03:38.076Z",
+  "method": "GET",
+  "url": "/",
+  "params": {},
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "4ms"
+}
+
+{
+  "time": "2025-09-02T06:46:07.860Z",
+  "method": "GET",
+  "url": "/posts/search?page=1&limit=10&search=Post&includeDeleted=false",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "search": "Post",
+    "includeDeleted": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "411ms"
+}
+
+{
+  "time": "2025-09-02T07:19:37.412Z",
+  "method": "GET",
+  "url": "/",
+  "params": {},
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "5ms"
+}
+
+{
+  "time": "2025-09-02T08:14:53.413Z",
+  "method": "POST",
+  "url": "/auth/register",
+  "params": {},
+  "query": {},
+  "body": {
+    "name": "shrutii",
+    "email": "shruti123@gmail.com",
+    "password": "Shruti123",
+    "role": "author"
+  },
+  "statusCode": 201,
+  "executionTime": "1204ms"
+}
+
+{
+  "time": "2025-09-02T08:24:33.251Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "510ms"
+}
+
+{
+  "time": "2025-09-02T08:29:39.150Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "919ms"
+}
+
+{
+  "time": "2025-09-02T08:30:37.041Z",
+  "method": "POST",
+  "url": "/auth/login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "891ms"
+}
+
+{
+  "time": "2025-09-02T08:32:31.759Z",
+  "method": "GET",
+  "url": "/users?page=1&limit=10&paginate=true&search=John",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "paginate": "true",
+    "search": "John"
+  },
+  "statusCode": 200,
+  "executionTime": "424ms"
+}
+
+{
+  "time": "2025-09-02T08:32:49.817Z",
+  "method": "GET",
+  "url": "/users?page=1&limit=10&paginate=true&search=post",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "paginate": "true",
+    "search": "post"
+  },
+  "statusCode": 200,
+  "executionTime": "374ms"
+}
+
+{
+  "time": "2025-09-02T08:33:41.257Z",
+  "method": "GET",
+  "url": "/users?page=1&limit=10&paginate=true",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "paginate": "true"
+  },
+  "statusCode": 200,
+  "executionTime": "518ms"
+}
+
+{
+  "time": "2025-09-02T08:35:35.188Z",
+  "method": "GET",
+  "url": "/users?page=1&limit=10&paginate=true&search=archana",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "paginate": "true",
+    "search": "archana"
+  },
+  "statusCode": 200,
+  "executionTime": "480ms"
+}
+
+{
+  "time": "2025-09-02T08:38:45.511Z",
+  "method": "POST",
+  "url": "/auth/login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "1106ms"
+}
+
+{
+  "time": "2025-09-02T08:40:54.434Z",
+  "method": "POST",
+  "url": "/posts",
+  "params": {},
+  "query": {},
+  "body": {
+    "title": "Self Defence",
+    "content": "Self Defence Trainings",
+    "status": "draft",
+    "userId": 26
+  },
+  "statusCode": 201,
+  "executionTime": "831ms"
+}
+
+{
+  "time": "2025-09-02T08:42:13.803Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "pinal123@gmil.com",
+    "password": "pinal123"
+  },
+  "statusCode": 201,
+  "executionTime": "925ms"
+}
+
+{
+  "time": "2025-09-02T08:43:31.459Z",
+  "method": "GET",
+  "url": "/posts/22",
+  "params": {
+    "id": "22"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "684ms"
+}
+
+{
+  "time": "2025-09-02T08:44:40.267Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "954ms"
+}
+
+{
+  "time": "2025-09-02T08:46:14.862Z",
+  "method": "PUT",
+  "url": "/posts/19",
+  "params": {
+    "id": "19"
+  },
+  "query": {},
+  "body": {
+    "title": "This is Updated Post by Ayushii Patell",
+    "content": "Updated content of the post",
+    "status": "draft"
+  },
+  "statusCode": 200,
+  "executionTime": "933ms"
+}
+
+{
+  "time": "2025-09-02T08:53:19.915Z",
+  "method": "PUT",
+  "url": "/posts/19",
+  "params": {
+    "id": "19"
+  },
+  "query": {},
+  "body": {
+    "title": "This is Updated Post by Ayushii Patell",
+    "content": "Updated content of the post",
+    "status": "draft"
+  },
+  "statusCode": 200,
+  "executionTime": "613ms"
+}
+
+{
+  "time": "2025-09-02T09:03:35.212Z",
+  "method": "POST",
+  "url": "/auth/login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "1468ms"
+}
+
+{
+  "time": "2025-09-02T09:04:05.028Z",
+  "method": "GET",
+  "url": "/users?page=1&limit=10&paginate=false",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "450ms"
+}
+
+{
+  "time": "2025-09-02T09:04:32.750Z",
+  "method": "GET",
+  "url": "/users?page=1&limit=10&paginate=true",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "paginate": "true"
+  },
+  "statusCode": 200,
+  "executionTime": "488ms"
+}
+
+{
+  "time": "2025-09-02T09:36:55.594Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "99ms"
+}
+
+{
+  "time": "2025-09-02T09:40:07.588Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "98ms"
+}
+
+{
+  "time": "2025-09-02T09:40:10.989Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "76ms"
+}
+
+{
+  "time": "2025-09-02T09:40:44.704Z",
+  "method": "GET",
+  "url": "/posts?page=1&limit=10&search=NestJS&paginate=false",
+  "params": {},
+  "query": {
+    "page": "1",
+    "limit": "10",
+    "search": "NestJS",
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "478ms"
+}
+
+{
+  "time": "2025-09-02T09:41:24.918Z",
+  "method": "GET",
+  "url": "/posts?paginate=%22false%22",
+  "params": {},
+  "query": {
+    "paginate": "\"false\""
+  },
+  "statusCode": 200,
+  "executionTime": "445ms"
+}
+
+{
+  "time": "2025-09-02T09:41:42.185Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "401ms"
+}
+
+{
+  "time": "2025-09-02T09:45:49.815Z",
+  "method": "GET",
+  "url": "/posts/19",
+  "params": {
+    "id": "19"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "892ms"
+}
+
+{
+  "time": "2025-09-02T09:51:45.413Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "1230ms"
+}
+
+{
+  "time": "2025-09-02T09:57:07.080Z",
+  "method": "GET",
+  "url": "/posts?paginate=true",
+  "params": {},
+  "query": {
+    "paginate": "true"
+  },
+  "statusCode": 200,
+  "executionTime": "474ms"
+}
+
+{
+  "time": "2025-09-02T09:57:46.845Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "526ms"
+}
+
+{
+  "time": "2025-09-02T10:06:43.657Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "892ms"
+}
+
+{
+  "time": "2025-09-02T10:07:56.736Z",
+  "method": "POST",
+  "url": "/posts/20/comments",
+  "params": {
+    "id": "20"
+  },
+  "query": {},
+  "body": {
+    "content": "amazing Postt"
+  },
+  "statusCode": 201,
+  "executionTime": "809ms"
+}
+
+{
+  "time": "2025-09-02T10:09:36.537Z",
+  "method": "POST",
+  "url": "/auth/login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "1171ms"
+}
+
+{
+  "time": "2025-09-02T10:10:06.538Z",
+  "method": "POST",
+  "url": "/posts/20/comments",
+  "params": {
+    "id": "20"
+  },
+  "query": {},
+  "body": {
+    "content": "amazing Posttt"
+  },
+  "statusCode": 201,
+  "executionTime": "688ms"
+}
+
+{
+  "time": "2025-09-02T10:11:09.835Z",
+  "method": "GET",
+  "url": "/posts/20",
+  "params": {
+    "id": "20"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "796ms"
+}
+
+{
+  "time": "2025-09-02T10:12:47.435Z",
+  "method": "POST",
+  "url": "/auth/login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "886ms"
+}
+
+{
+  "time": "2025-09-02T10:14:32.681Z",
+  "method": "DELETE",
+  "url": "/posts/18",
+  "params": {
+    "id": "18"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "834ms"
+}
+
+{
+  "time": "2025-09-02T10:17:51.552Z",
+  "method": "POST",
+  "url": "/posts/restore/18",
+  "params": {
+    "id": "18"
+  },
+  "query": {},
+  "statusCode": 201,
+  "executionTime": "534ms"
+}
+
+{
+  "time": "2025-09-02T10:21:46.317Z",
+  "method": "POST",
+  "url": "/auth/login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "1045ms"
+}
+
+{
+  "time": "2025-09-02T10:23:02.230Z",
+  "method": "DELETE",
+  "url": "/comments/5",
+  "params": {
+    "id": "5"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "868ms"
+}
+
+{
+  "time": "2025-09-02T10:27:12.133Z",
+  "method": "POST",
+  "url": "/comments/5/restore",
+  "params": {
+    "id": "5"
+  },
+  "query": {},
+  "statusCode": 201,
+  "executionTime": "426ms"
+}
+
+{
+  "time": "2025-09-02T10:27:53.415Z",
+  "method": "DELETE",
+  "url": "/posts/18",
+  "params": {
+    "id": "18"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "1086ms"
+}
+
+{
+  "time": "2025-09-02T10:28:27.995Z",
+  "method": "POST",
+  "url": "/posts/restore/18",
+  "params": {
+    "id": "18"
+  },
+  "query": {},
+  "statusCode": 201,
+  "executionTime": "387ms"
+}
+
+{
+  "time": "2025-09-02T10:40:19.188Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "1081ms"
+}
+
+{
+  "time": "2025-09-02T10:41:42.795Z",
+  "method": "POST",
+  "url": "/posts",
+  "params": {},
+  "query": {},
+  "body": {
+    "title": "Story",
+    "content": "This is newsttt story of summer and Rachel",
+    "status": "published"
+  },
+  "statusCode": 201,
+  "executionTime": "755ms"
+}
+
+{
+  "time": "2025-09-02T10:44:18.389Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "749ms"
+}
+
+{
+  "time": "2025-09-02T11:24:21.074Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "995ms"
+}
+
+{
+  "time": "2025-09-02T11:24:57.199Z",
+  "method": "POST",
+  "url": "/auth/login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "772ms"
+}
+
+{
+  "time": "2025-09-02T11:26:57.534Z",
+  "method": "PUT",
+  "url": "/posts/20",
+  "params": {
+    "id": "20"
+  },
+  "query": {},
+  "body": {
+    "title": "story",
+    "content": "Updated Harry Potter story",
+    "status": "draft"
+  },
+  "statusCode": 200,
+  "executionTime": "787ms"
+}
+
+{
+  "time": "2025-09-02T11:39:42.768Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "1023ms"
+}
+
+{
+  "time": "2025-09-02T11:41:53.416Z",
+  "method": "POST",
+  "url": "/posts",
+  "params": {},
+  "query": {},
+  "body": {
+    "title": "Newss",
+    "content": "This is Big newsss",
+    "status": "draft"
+  },
+  "statusCode": 201,
+  "executionTime": "840ms"
+}
+
+{
+  "time": "2025-09-02T12:07:16.249Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "yashuu@gmail.com",
+    "password": "Rohan@123"
+  },
+  "statusCode": 201,
+  "executionTime": "881ms"
+}
+
+{
+  "time": "2025-09-02T12:08:30.926Z",
+  "method": "PUT",
+  "url": "/posts/20",
+  "params": {
+    "id": "20"
+  },
+  "query": {},
+  "body": {
+    "title": "newwwww",
+    "content": "Updated content of the post",
+    "status": "draft"
+  },
+  "statusCode": 200,
+  "executionTime": "904ms"
+}
+
+{
+  "time": "2025-09-03T05:05:49.124Z",
+  "method": "POST",
+  "url": "/auth/Login",
+  "params": {},
+  "query": {},
+  "body": {
+    "email": "ayushi187@gmail.com",
+    "password": "Ayushi@111"
+  },
+  "statusCode": 201,
+  "executionTime": "1092ms"
+}
+
+{
+  "time": "2025-09-03T05:07:28.667Z",
+  "method": "GET",
+  "url": "/posts/20",
+  "params": {
+    "id": "20"
+  },
+  "query": {},
+  "statusCode": 200,
+  "executionTime": "680ms"
+}
+
+{
+  "time": "2025-09-03T05:35:44.313Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "123ms"
+}
+
+{
+  "time": "2025-09-03T05:37:27.245Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "602ms"
+}
+
+{
+  "time": "2025-09-03T05:37:41.726Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "453ms"
+}
+
+{
+  "time": "2025-09-03T05:37:46.608Z",
+  "method": "GET",
+  "url": "/posts?paginate=false",
+  "params": {},
+  "query": {
+    "paginate": "false"
+  },
+  "statusCode": 200,
+  "executionTime": "76ms"
+}
+
